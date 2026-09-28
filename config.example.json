@@ -1,0 +1,27 @@
+{
+  "botToken": "PASTE_BOT_TOKEN_HERE",
+  "guildId": "PASTE_GUILD_ID_HERE",
+  "channels": {
+    "bounty": "PASTE_BOUNTY_CHANNEL_ID",
+    "dealCategory": "PASTE_DEAL_CATEGORY_ID",
+    "dealArchive": "PASTE_DEAL_ARCHIVE_CHANNEL_ID",
+    "ticketCategory": "PASTE_TICKET_CATEGORY_ID"
+  },
+  "roles": {
+    "owner": "PASTE_OWNER_ROLE_ID",
+    "member": "PASTE_MEMBER_ROLE_ID"
+  },
+  "billing": {
+    "address": "PASTE_BILLING_ADDRESS (e.g. Jane Doe, Example St. 1, 12345 City)",
+    "email": "PASTE_BILLING_EMAIL"
+  },
+  "roleTiers": [
+    { "count": 5, "roleId": "PASTE_ROLE_ID_FOR_5_DEALS" },
+    { "count": 10, "roleId": "PASTE_ROLE_ID_FOR_10_DEALS" },
+    { "count": 25, "roleId": "PASTE_ROLE_ID_FOR_25_DEALS" }
+  ],
+  "vatRate": 0.19,
+  "currency": "EUR",
+  "locale": "de-DE",
+  "progressBarSegments": 10
+}

@@ -1,0 +1,19 @@
+[Unit]
+Description=Discord Bounty Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/discord-bounty-bot
+ExecStart=/usr/bin/node bot/index.js
+Restart=always
+RestartSec=5
+User=bounty
+Group=bounty
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,15 @@
+{
+  "name": "discord-bounty-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zero-dependency Discord bot for group-buy / bounty servers: deals, private tickets, atomic quantity reservation, tracking and invoice capture.",
+  "type": "commonjs",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node bot/index.js",
+    "register": "node bot/index.js --register-only",
+    "test": "node bot/selftest.js"
+  },
+  "dependencies": {}
+}
