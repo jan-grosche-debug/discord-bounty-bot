@@ -1,5 +1,7 @@
 # Discord Bounty Bot
 
+[![tests](https://github.com/jan-grosche-debug/discord-bounty-bot/actions/workflows/test.yml/badge.svg)](https://github.com/jan-grosche-debug/discord-bounty-bot/actions/workflows/test.yml)
+
 A **zero-dependency** Discord bot for group-buy / bounty servers in the reselling space. The server owner posts buying deals ("bounties"). Members join through private tickets, reserve quantities from a shared pool, and submit tracking numbers, serial numbers and invoices. The whole purchase-to-payout flow runs inside Discord.
 
 Built as a freelance project for a client's reselling community. It has been running 24/7 on a Linux VPS.
